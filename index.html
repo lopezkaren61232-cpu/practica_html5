@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recetas Dulces</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Recetas Dulces</h1>
+    <p>Postres irresistibles para endulzar tu día</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+      <li><a href="#" onclick="mostrarSeccion('ingredientes')">Ingredientes</a></li>
+      <li><a href="#" onclick="mostrarSeccion('preparacion')">Preparación</a></li>
+      <li><a href="#" onclick="mostrarSeccion('galeria')">Galería</a></li>
+      <li><a href="#" onclick="mostrarSeccion('opinion')">Opinión</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="inicio" class="pantalla activa">
+      <article class="card">
+        <h2>Pastel de Chocolate Casero</h2>
+        <p>Un clásico de la repostería que nunca falla.</p>
+        <img src="img/inicio.jpeg" alt="Pastel de chocolate">
+      </article>
+    </section>
+
+    <section id="ingredientes" class="pantalla">
+      <article class="card">
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>200 g de harina</li>
+          <li>200 g de azúcar</li>
+          <li>100 g de cacao en polvo</li>
+          <li>3 huevos</li>
+          <li>100 ml de leche</li>
+          <li>100 g de mantequilla</li>
+        </ul>
+        <img src="img/ingredientes.jpeg" alt="Ingredientes pastel de chocolate">
+      </article>
+    </section>
+
+    <section id="preparacion" class="pantalla">
+      <article class="card">
+        <h2>Preparación</h2>
+        <p>1. Precalienta el horno a 180°C.</p>
+        <p>2. Mezcla los ingredientes secos en un bol.</p>
+        <p>3. Añade los huevos, la leche y la mantequilla derretida.</p>
+        <p>4. Vierte la mezcla en un molde engrasado.</p>
+        <p>5. Hornea durante 35 minutos.</p>
+        <img src="img/preparacion.jpeg" alt="Preparación pastel de chocolate">
+      </article>
+    </section>
+
+    <section id="galeria" class="pantalla">
+      <article class="card">
+        <h2>Galería</h2>
+        <div class="galeria-item">
+          <img src="img/galeria1.jpeg" alt="Pastel recién horneado">
+          <h3>Pastel recién horneado</h3>
+          <p>Suave y esponjoso, listo para decorar.</p>
+        </div>
+        <div class="galeria-item">
+          <img src="img/galeria2.jpeg" alt="Decoración con chocolate">
+          <h3>Decoración con chocolate</h3>
+          <p>Glaseado brillante que realza el sabor.</p>
+        </div>
+        <div class="galeria-item">
+          <img src="img/galeria3.jpeg" alt="Porción servida">
+          <h3>Porción servida</h3>
+          <p>Perfecta para acompañar con café o leche.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="opinion" class="pantalla">
+      <article class="card">
+        <h2>Opinión</h2>
+        <p>El pastel de chocolate casero es un postre versátil y delicioso que encanta a todos.</p>
+        <img src="img/opinion.jpeg" alt="Opinión pastel de chocolate">
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto HTML5 - Recetas Dulces</p>
+  </footer>
+</body>
+</html>
